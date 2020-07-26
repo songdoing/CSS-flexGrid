@@ -26,3 +26,28 @@
 .menu-link:hover {
     color : white;
 }
+
+/*search*/
+.search-form {
+	display: flex;
+    height: 50px;
+    padding : 0.3em;
+}
+
+.search-form input[type="search"] {
+	flex: 1; /*유연하게 늘어날 아이*/
+	min-width: 0;
+	margin-right: 10px;
+	border: 0;
+	border-radius: 0.3em;
+	font-size: 1rem;
+}
+
+.search-form input[type='submit'] {
+    width : 4em;
+    border : 0;
+    border-radius : 0.3em;
+    font-size : 1rem;
+    background: gold;
+}
+    
