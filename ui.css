@@ -91,3 +91,23 @@
     white-space : nowrap;
     /*위 3개를 한꺼번에 외운다, 브라우저 작으면 ...표시*/
 }
+
+/*modal*/
+.modal {
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    /*위 2개 한꺼번에 사용 정중앙*/
+    position : fixed;
+    left : 0;
+    right : 0;
+    top : 0;
+    bottom : 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+.dialog {
+    width : 50vw;
+    padding: 2em;
+    border-radius : 1em;
+    background: white;
+}
