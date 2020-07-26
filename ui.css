@@ -80,3 +80,14 @@
     background-size: 80%;
     flex-shrink: 0;/*text가 많아도 찌그러지지않게*/
 }
+
+/*user*/
+.friend-item {
+    align-items : center; /*텍스트가 중간에*/
+}
+.user-name {
+    overflow : hidden;
+    text-overflow : ellipsis;
+    white-space : nowrap;
+    /*위 3개를 한꺼번에 외운다, 브라우저 작으면 ...표시*/
+}
